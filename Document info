@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//w3C//DTD HTML 4.0//EN">
+<html>
+<HEAD>
+	<TITLE>Hurssia Uncovered</TITLE>
+</HEAD>
+<BODY BGCOLOR="WHITE">
+<H1> Welcome Back to Hurssia</H1>
+<SCRIPT TYPE="text/javascript">
+<!--
+document.write ("<HR>");
+document.write ("Hello Hurssia");
+document.write ("<HR>");
+
+function referringPage () {
+  if (document.referrer.length == 0)  {
+    return (<I>none</I>);
+   } else  {
+    return (document.referrer);
+   }
+}
+document.writeln
+  ("Document Info:\n" +
+  "<UL>\n" +
+  "  <LI><B>URL:</B> " + document.location + "\n" +
+  "  <LI><B>Modification Date:</B> " + "\n" +
+        document.lastModified + "\n" +
+  "  <LI><B>Title:<\B> " + document.title + "\n" +
+  "<\UL>");
+document.writeln
+  ("Browser Info:" + "\n" +
+  "<UL>" + "\n" +
+  "  <LI><B>Name<\B> " + navigator.appName + "\n" +
+  "<\UL>");
+// -->
+</SCRIPT>
+<HR>
+</BODY>
+</HTML>
